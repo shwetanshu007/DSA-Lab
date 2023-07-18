@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+ struct information
+{
+    char name[50];
+    int age;
+    char blood;
+    int height;
+};
+int main()
+{
+    information i1,i2;
+    cout<<"name:";
+    cin>>i1.name;
+    cout<<"age";
+    cin>>i1.age;
+    cout<<"blood group";
+    cin>>i1.blood;
+    cout<<"height";
+    cin>>i1.height;
+    
+
+    cout<<"name:";
+    cin>>i2.name;
+    cout<<"age";
+    cin>>i2.age;
+    cout<<"blood group";
+    cin>>i2.blood;
+    cout<<"height";
+    cin>>i2.height;
+   
+    cout<<"name:\n"<<i1.name;
+    cout<<"age:\n"<<i1.age;
+    cout<<"blood group:\n"<<i1.blood;
+    cout<<"height:\n"<<i1.height;
+    
+    cout<<"name:\n"<<i2.name;
+    cout<<"age:\n"<<i2.age;
+    cout<<"blood group:\n"<<i2.blood;
+    cout<<"height:\n"<<i2.height;
+    
+    
+
+    return 0;
+}
